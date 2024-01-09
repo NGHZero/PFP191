@@ -1,0 +1,18 @@
+x = input('Nhập Điểm')
+x = float(x)
+if x < 4 :
+    print('Điểm chữ : F')
+    print('Điểm số : 0')
+elif x >= 4 and x <= 5.4 :
+    print('Điểm chữ : D')
+    print('Điểm số : 1')
+elif x >= 5.5 and x <= 6.9 :
+    print('Điểm chữ : C')
+    print('Điểm số : 2')
+elif x >= 7 and x <= 8.4 :
+    print('Điểm chữ : B')
+    print('Điểm số : 3')
+elif x >= 8.5 and x <= 10 :
+    print('Điểm chữ : A')
+    print('Điểm số : 4')
+print('All Done')
