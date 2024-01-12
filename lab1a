@@ -1,0 +1,40 @@
+#Q3
+#3.1
+number1 = 20
+number2 = 30
+multiplication = number1 * number2
+print(" The result is ",multiplication)
+#
+number1 = 40
+number2 = 30
+Sum = number1 + number2
+print(" The result is ",Sum)
+
+#3.2
+def iter_and_sum(n):
+    current_sum = 0
+    previous_num = 0
+    for i in range(1, n+1):
+        current_sum = i + previous_num
+        print(current_sum)
+        previous_num = i
+
+iter_and_sum(10)
+
+#3.3
+string1 = "Name"
+string2 = "Is"
+string3 = "James"
+
+print(string1, string2, string3, sep="**")
+
+
+
+#Q4
+#4.1
+num = 8
+print(f"The octal number of {num} is: {oct(num)}")
+
+#4.2
+float_number = 458.541315
+print(f"{round(float_number, 2)}")
