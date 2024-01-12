@@ -1,0 +1,48 @@
+#Q3
+
+# 3.1: Input 4 real numbers
+a = float(input("Nhập a: "))
+b = float(input("Nhập b: "))
+c = float(input("Nhập c: "))
+x = float(input("Nhập x: "))
+
+# 3.2: Calculate S1 = ax^2 + bx + c
+S1 = a * x**2 + b * x + c
+print(f"S1 = {S1}")
+
+# 3.3:
+o = b**2 - 4 * a * c
+if o > 0:
+    S2 = math.sqrt(o)
+else:
+    S2 = 0
+print(S2)
+
+# Task 3.4: Re-input a, b, and c and check if they are sides of a triangle
+a = float(input("Enter the value of a for the triangle: "))
+b = float(input("Enter the value of b for the triangle: "))
+c = float(input("Enter the value of c for the triangle: "))
+
+# Check if they form a triangle
+if a + b > c and a + c > b and b + c > a:
+    print("The values can form a triangle.")
+else:
+    print("The values cannot form a triangle.")
+
+#Q4:Write a program to accept 3 real numbers a, b, c, then:
+#4.1: Display the maximum and minimum values among them
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+c = float(input("Enter the value of c: "))
+
+max_value = max(a, b, c)
+min_value = min(a, b, c)
+
+print(f"Max: {max_value}")
+print(f"Min: {min_value}")
+
+sorted_values = sorted([a, b, c])
+
+print(f"Ascending order: {sorted_values}")
+
+
